@@ -6,5 +6,7 @@ In order to download the scripts here and generate the actual .mp4 files that re
 1. run `git clone https://github.com/jonaspvean/ManimAnimations/ ManimScripts`
 2. make sure to have the `Manim` Python library installed – instructions can be found [here](https://docs.manim.community/en/stable/faq/installation.html)
 3. to generate the .mp4 file for a particular scene, say `AnimationScene` as defined by a function found within its corresponding scipt file, say `script.py`, one needs to run the following command:
+
 `/path/to/manim script.py AnimationScene`
+
 where `/path/to/manim` specifies where the executable or binary files for Manim are found on your system.
